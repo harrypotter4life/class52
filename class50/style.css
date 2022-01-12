@@ -1,0 +1,66 @@
+h1 {
+    color: rgb(42, 147, 165);
+    margin-left: 100px;
+}
+
+.header * {
+    border: solid;
+}
+.header{
+    background-color: rgb(8, 100, 100);
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    background-color: aquamarine;
+}
+.grid{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
+
+a:link{
+    color: coral;
+}
+
+a:visited{
+    color: fuchsia;
+}
+
+.menu{
+    margin-right: 100px;
+}
+
+.menu a{
+    margin-left: 50px;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:1
+}
+
+.item:hover img{
+    opacity:0.33
+}
